@@ -1,0 +1,9 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "isolatedModules": false
+    },
+    "include": [".eslintrc.cjs", "./**/*.js", "./**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
